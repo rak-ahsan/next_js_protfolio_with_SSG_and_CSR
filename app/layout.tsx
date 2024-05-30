@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Inter, Roboto, Noto_Sans } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/context/theme-context";
+import TopNavBar from "@/components/top-nav-bar";
+import SideBar from "@/components/side/side-bar";
+import Main from "@/components/main";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,8 +25,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={roboto.className}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="system"
+        enableSystem
+        disableTransitionOnChange
+      >
+        <body className={roboto.className}>
+          <Main>{children}</Main>
+        </body>
+      </ThemeProvider>
     </html>
   );
 }

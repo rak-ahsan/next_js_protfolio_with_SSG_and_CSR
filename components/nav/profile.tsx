@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { FaInbox, FaQuestionCircle, FaTrophy } from "react-icons/fa";
 import { MdMessage } from "react-icons/md";
+import { ModeToggle } from "../dark-mode";
 
 const ProfileImage = () => {
   return (
@@ -26,6 +27,9 @@ const ProfileImage = () => {
       </div>
       <div className="hover:bg-gray-500">
         <MdMessage size={23} color="gray" />
+      </div>
+      <div>
+        <ModeToggle/>
       </div>
     </div>
   );
