@@ -20,7 +20,7 @@ export function CarouselSkill() {
   const skillImages = [
     { name: 'React', path: '/react.png' },
     { name: 'Larval', path: '/laravel.png' },
-    { name: 'mysql', path: '/MYSQL.png' },
+    { name: 'mysql', path: '/mysql.png' },
     { name: 'php', path: '/php.png' },
     { name: 'express', path: '/express.png' },
     { name: 'next', path: '/next.png' },
