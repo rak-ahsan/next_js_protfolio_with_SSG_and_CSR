@@ -21,8 +21,8 @@ const Profile = () => {
               className="rounded-sm"
             />
           </div>
-          <div >
-            <div className="lg:text-[38px]  text-2xl">
+          <div className="w-96">
+            <div className="lg:text-[38px]  text-2xl flex items-center justify-between">
               <span>Rakibul Islam</span>
               <a
                 href="/resume_rakib_ahsan.pdf"
