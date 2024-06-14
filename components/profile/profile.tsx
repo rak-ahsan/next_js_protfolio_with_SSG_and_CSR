@@ -21,7 +21,81 @@ const Profile = () => {
               className="rounded-sm"
             />
           </div>
-          
+          <div >
+            <div className="lg:text-[38px]  text-2xl flex items-center justify-between">
+              <span>Rakibul Islam</span>
+              <a
+                href="/resume_rakib_ahsan.pdf"
+                download="rakibul_islam_resume"
+                title="Download Resume"
+                className="lg:hover:bg-slate-400 lg:hover:text-white lg:p-4 rounded-full flex items-center"
+              >
+                <span className="text-sm lg:block hidden"> Resume -</span> <FaFilePdf size={25} />
+              </a>
+            </div>
+            <p className="lg:text-[22px] text-gray-600 dark:text-gray-200">
+              Full Stack Web Developer
+            </p>
+            {/* <div className="flex space-x-4">
+              <div className="flex items-center space-x-1">
+                <LiaBirthdayCakeSolid size={20} />
+                <p className="text-[12px]">join today</p>
+              </div>
+              <div className="flex items-center space-x-1">
+                <CiClock2 size={20} />
+                <p className="text-[12px]">join today</p>
+              </div>
+              <div className="flex items-center space-x-1">
+                <FaRegCalendarAlt size={18} />
+                <p className="text-[12px]">join today</p>
+              </div>
+            </div> */}
+            <div >
+              <Link
+                href="https://github.com/rak-ahsan"
+                target="_blank"
+                className="flex items-center space-x-1 border-b border-gray-500"
+              >
+                <IoLogoGithub size={18} color="gray" />
+                <span className="text-[12px]">rak-ahsan</span>
+              </Link>
+              <Link
+                href="https://github.com/rak-ahsan"
+                target="_blank"
+                className="flex items-center space-x-1 border-b border-gray-500"
+              >
+                <IoLogoLinkedin size={18} color="gray" />
+                <span className="text-[12px]">rakibahsan</span>
+              </Link>
+
+              <Link
+                href="tel:+8801775566772"
+                target="_blank"
+                className="flex items-center space-x-1 border-b border-gray-500"
+              >
+                <FaMobile size={15} color="gray" />
+                <span className="text-[12px]">01775566772</span>
+              </Link>
+
+              <Link
+                href="mailto:rakibzubayar@gmail.com"
+                target="_blank"
+                className="flex items-center space-x-1 border-b border-gray-500"
+              >
+                <MdAttachEmail size={18} color="gray" />
+                <span className="text-[12px]">rakibzubayar@gmail.com</span>
+              </Link>
+              <Link
+                href="https://github.com/rak-ahsan"
+                target="_blank"
+                className="flex items-center space-x-1"
+              >
+                <FaLocationDot size={18} color="gray" />
+                <span className="text-[12px]">Dhaka</span>
+              </Link>
+            </div>
+            <CarouselSkill />
+          </div>
         </div>
       </div>
     </div>
