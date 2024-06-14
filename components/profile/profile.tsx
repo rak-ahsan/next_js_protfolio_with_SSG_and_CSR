@@ -21,7 +21,7 @@ const Profile = () => {
               className="rounded-sm"
             />
           </div>
-          <div className="w-48">
+          <div className="w-80">
             <div className="lg:text-[38px]  text-2xl flex space-x-2 justify-start">
               <span>Rakibul Islam</span>
               <a
