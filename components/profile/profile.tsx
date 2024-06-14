@@ -21,7 +21,7 @@ const Profile = () => {
               className="rounded-sm"
             />
           </div>
-          <div >
+          <div className="max-w-full">
             <div className="lg:text-[38px]  text-2xl flex items-center justify-between">
               <span>Rakibul Islam</span>
               <a
@@ -50,7 +50,7 @@ const Profile = () => {
                 <p className="text-[12px]">join today</p>
               </div>
             </div> */}
-            <div >
+            <div className="lg:flex lg:space-x-4 items-center mt-2 mb-2 space-y-2">
               <Link
                 href="https://github.com/rak-ahsan"
                 target="_blank"
