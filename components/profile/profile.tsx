@@ -22,7 +22,7 @@ const Profile = () => {
             />
           </div>
           <div className="w-96">
-            <div className="lg:text-[38px]  text-2xl flex items-center justify-between">
+            <div className="lg:text-[38px]  text-2xl flex space-x-2 justify-start">
               <span>Rakibul Islam</span>
               <a
                 href="/resume_rakib_ahsan.pdf"
