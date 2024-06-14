@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useEffect, useState } from "react";
 
 const Experience = () => {
@@ -14,26 +13,23 @@ const Experience = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-2 h-96">
+    <div className="grid lg:grid-cols-2 h-96 scroll-none lg:p-0 p-3">
       <div className="left"></div>
-      <div
-        className={`middle border-l-4 border-black dark:border-gray-300 mt-[2rem] border-rounded rounded-t-sm relative`}
-      >
+      <div className="middle border-l-4 border-black dark:border-gray-300 lg:mt-[2rem] border-rounded rounded-t-sm relative">
         <div className="pl-4">
           <p className="bg-blue-600 dark:bg-yellow-500 rounded-full w-[1rem] text-center h-4 absolute top-[20px] left-[-10px]"></p>
           <div
-            className={`${
-              loading
-                ? "transition-all duration-1000 ml-[150px] opacity-0"
-                : "pl-0 transition-all duration-1000"
-            }`}
+            className={`${loading
+              ? "transition-all duration-1000 ml-[150px] opacity-100"
+              : "pl-0 transition-all duration-1000 lg:pb-0 pb-20"
+              }`}
           >
             <p className="pt-4 text-xl">
               Soft Park IT <small>(June 2023 - Present)</small>
             </p>
             <span>Junior Web Developer</span>
             <br />
-            <p className="leading-none text-sm pt-1 pb-1">
+            <p className={`leading-none text-sm pt-1 pb-1`}>
               Soft Park is a cutting-edge software company specializing in
               innovative solutions for businesses across various industries.
             </p>
@@ -60,3 +56,5 @@ const Experience = () => {
 };
 
 export default Experience;
+
+

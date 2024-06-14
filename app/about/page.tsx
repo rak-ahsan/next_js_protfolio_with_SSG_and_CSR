@@ -14,11 +14,11 @@ const AboutPage = () => {
   }, []);
   return (
     <div
-      className={`grid grid-cols-3 mt-5 gap-10 ${
-        loading ? "opacity-0" : "opacity-100 transition-opacity duration-1000"
+      className={`grid lg:grid-cols-3 mt-5 gap-10 p-3 ${
+        loading ? "opacity-0" : "opacity-100 transition-opacity duration-1000 lg:pb-0 pb-16"
       }`}
     >
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center ">
         <Image
           src={"/about.jpeg"}
           alt={"profile-image-rakib-ahsan"}
@@ -27,7 +27,7 @@ const AboutPage = () => {
           className="rounded-sm"
         />
       </div>
-      <div className="col-span-2">
+      <div className="lg:col-span-2">
         <small>
           Highly skilled and motivated Full Stack Web Developer with expertise
           in both front-end and back-end development. Experienced in designing

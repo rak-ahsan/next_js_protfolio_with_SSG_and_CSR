@@ -15,11 +15,11 @@ const TopNavBar = () => {
           height={30}
           className="mt-[-0.75rem]"
         />
-        <p> Rakib Ahsan</p>
-        <p className="pl-5 text-gray-500 text-[12px]">Portfolio</p>
+        <p className="hidden lg:block"> Rakib Ahsan</p>
+        <p className="pl-5 text-gray-500 text-[12px] hidden lg:block">Portfolio</p>
       </div>
 
-      <div className="w-full col-span-2">
+      <div className="w-full lg:col-span-2 hidden lg:block">
         <FormInput placeholder={"search"} type={"text"} />
       </div>
       <div>

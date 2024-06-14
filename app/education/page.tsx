@@ -22,7 +22,7 @@ const Education = () => {
             className={`${
               loading
                 ? "transition-all duration-1000 mr-[150px] opacity-0"
-                : "pl-0 transition-all duration-1000"
+                : "pl-0 transition-all duration-1000 "
             }`}
           >
             <p className="pt-4 text-xl">
@@ -38,7 +38,7 @@ const Education = () => {
             className={`${
               loading
                 ? "transition-all duration-1000 mr-[150px] opacity-0"
-                : "pl-0 transition-all duration-1000"
+                : "pl-0 transition-all duration-1000 lg:pb-0 pb-16"
             }`}
           >
             <p className="pt-4 text-xl">

@@ -46,8 +46,8 @@ const SkillsPage = () => {
 
   return (
     <div
-      className={`grid grid-cols-3 gap-4 justify-between mt-5 ${
-        loading ? "opacity-0" : "opacity-100 transition-opacity duration-1000"
+      className={`grid lg:grid-cols-3 gap-4 justify-between mt-5 ${
+        loading ? "opacity-0" : "opacity-100 transition-opacity duration-1000 lg:pb-0 pb-16"
       }`}
     >
       <CardSkills

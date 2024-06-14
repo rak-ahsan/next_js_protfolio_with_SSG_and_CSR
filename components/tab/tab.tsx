@@ -17,9 +17,9 @@ const tabItems = [
 
 export default function Tabs() {
   return (
-    <div className="w-full px-2 py-16 sm:px-0">
+    <div className="lg:px-2 lg:py-16 sm:px-0">
       <Tab.Group>
-        <Tab.List className="flex space-x-1 rounded-xlp-1 justify-between">
+        <Tab.List className="flex lg:flex-row flex-col lg:space-x-1 rounded-xl p-1 lg:justify-between lg:space-y-0 space-y-4 items-center">
           {tabItems.map((item, index) => (
             <Tab
               key={index}
@@ -37,7 +37,7 @@ export default function Tabs() {
             <AboutPage />
           </Tab.Panel>
           <Tab.Panel>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3 gap-4 lg:pb-0 pb-16">
               <CardProject
                 title="Real Estate Management"
                 framework="Raw Php & Raw Mysql"

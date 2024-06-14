@@ -6,8 +6,8 @@ import { ModeToggle } from "../dark-mode";
 
 const ProfileImage = () => {
   return (
-    <div className="flex space-x-4 justify-center items-center">
-      <div className="hover:bg-gray-500  transition-all duration-500 ease-out ">
+    <div className="flex space-x-4 lg:justify-center items-center">
+      <div className="hover:bg-gray-500  transition-all duration-500 ease-out flex justify-center items-center">
         <Image
           src={"/dp.jpg"}
           alt={"profile-image-rakib-ahsan"}
