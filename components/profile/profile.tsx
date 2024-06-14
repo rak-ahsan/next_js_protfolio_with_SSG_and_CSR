@@ -9,7 +9,7 @@ import { CarouselSkill } from "../carosol";
 
 const Profile = () => {
   return (
-    <div className="lg:col-span-10 flex justify-between">
+    <div className="lg:col-span-10 w-full flex justify-between">
       <div className="p-[20px] gap-4">
         <div className="lg:col-span-2 lg:flex space-x-4">
           <div className="flex justify-center items-center ">
