@@ -9,8 +9,8 @@ import { CarouselSkill } from "../carosol";
 
 const Profile = () => {
   return (
-    <div className="lg:col-span-10 w-full flex justify-between">
-      <div className="p-[20px] gap-4">
+    <div className="lg:col-span-10 flex justify-between">
+      <div className="lg:p-[20px] gap-4">
         <div className="lg:col-span-2 lg:flex space-x-4">
           <div className="flex justify-center items-center ">
             <Image
@@ -21,7 +21,7 @@ const Profile = () => {
               className="rounded-sm"
             />
           </div>
-          <div>
+          <div className="w-96">
             <div className="lg:text-[38px]  text-2xl flex items-center justify-between">
               <span>Rakibul Islam</span>
               <a
